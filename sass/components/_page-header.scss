@@ -1,0 +1,16 @@
+/* Шапка сайта */
+
+.page-header {
+  border-bottom: 1px solid $border-section-color;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}

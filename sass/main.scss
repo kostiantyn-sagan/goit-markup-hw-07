@@ -1,0 +1,132 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './base/styles-base';
+@import './utils/utils-classes';
+@import './components/page-header';
+@import './components/logo-header';
+@import './components/site-nav';
+@import './components/contacts-nav';
+@import './components/hero';
+@import './components/features-section';
+@import './components/directions-section';
+@import './components/team-section';
+@import './components/clients-section';
+@import './components/page-footer';
+@import './components/logo-footer';
+@import './components/contacts-footer';
+@import './components/community-footer';
+@import './components/subscription-footer';
+@import './components/filter-portfolio';
+@import './components/portfolio-cards';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/application-form';
+
+/* Стили для index.html */
+
+/* Уникальный контент страницы */
+
+/* Подвал сайта */
+
+/* Стили для portfolio.html */
+
+/* Галерея наших проектов */
+
+/* Модальное окно с формой заявки  */
+
+// Тренировка, удалить в конце
+
+// $color: green;
+
+// body {
+//   $secondary-color: red;
+//   background-color: $color;
+// }
+
+// p {
+//   color: $primary-text-color;
+// }
+
+// <section class="section">
+//   <h1 class="title">эффективные решения для вашего бизнеса</h1>
+//   <button type="button" class="text" data-modal-open>
+//     Заказать услугу
+//   </button>
+// </section>
+// Для селекторов потомка
+// .section {
+//   color: red;
+
+//   .title {
+//     color: green;
+//   }
+
+//   .text {
+//     color: teal;
+//   }
+// }
+
+// Для селектора с родительким именем
+// .section {
+//   color: red;
+
+//   &-title {
+//     color: green;
+//   }
+
+//   &-text {
+//     color: teal;
+//   }
+// }
+
+// Лучше делать вложенность (сшивание\конкатенацию)
+// для ховеров, макс вложенность 2 уровня
+// .section {
+//   color: red;
+
+//   &:hover {
+//     color: blue;
+//   }
+// }
+
+// .section-title {
+//   color: red;
+
+//   &:hover {
+//     color: rebeccapurple;
+//   }
+// }
+
+// button внутри box
+
+// .box {
+//   background-color: rebeccapurple;
+// Стили для button в box, нельзя
+//   &:hover .button {
+//     background-color: orange;
+//   }
+// }
+
+// .button {
+//   background-color: salmon;
+
+//   &:hover,
+//   &:focus {
+//     color: black;
+//   }
+// Для button в button ок
+//   .box:hover & {
+//     background-color: orange;
+//   }
+// }
+
+// Для чаилдов ласт и тп
+// .list-item {
+//   background-color: orange;
+
+//   &:nth-child(3) {
+//     background-color: black;
+//   }
+// }
+
+// Тренировка, удалить в конце

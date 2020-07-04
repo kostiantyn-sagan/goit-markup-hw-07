@@ -1,0 +1,76 @@
+/* Наша команда */
+
+.background-team {
+  background-color: $team-bg-color;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-item {
+  width: calc((100% - 90px) / 4);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+
+  background-color: $white-color;
+}
+
+.content {
+  padding-top: 30px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  padding-left: 32px;
+}
+
+.team-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: $secondary-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.position {
+  margin-top: 0;
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-links {
+  display: flex;
+}
+
+.account {
+  width: calc((100% - 30px) / 4);
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.account-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 44px;
+
+  color: $link-color;
+
+  transition: color 250ms $timing-function,
+    background-color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $white-color;
+    background-color: $accent-color;
+  }
+}

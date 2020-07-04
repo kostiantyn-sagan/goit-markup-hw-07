@@ -1,0 +1,25 @@
+.contacts {
+  margin-right: 70px;
+}
+
+.address {
+  font-style: normal;
+
+  .location {
+    margin-top: 0;
+    margin-bottom: 8px;
+
+    color: $white-color;
+  }
+}
+
+.address-data {
+  display: block;
+
+  color: $address-color;
+  text-decoration: none;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}

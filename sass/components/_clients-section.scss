@@ -1,0 +1,29 @@
+/* Наши клиенты */
+
+.our-clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client {
+  width: calc((100% - 150px) / 6);
+}
+
+.client-link {
+  display: flex;
+  height: 90px;
+  border: 1px solid $link-color;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+
+  color: $link-color;
+
+  transition: border-color 250ms $timing-function, color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+}

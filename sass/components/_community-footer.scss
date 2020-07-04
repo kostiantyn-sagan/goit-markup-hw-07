@@ -1,0 +1,40 @@
+.community-part {
+  margin-right: auto;
+}
+
+.call {
+  display: block;
+  margin-bottom: 20px;
+
+  color: $white-color;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.studio-links {
+  display: flex;
+
+  .studio-community:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.community-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+
+  color: $white-color;
+  background-color: $studio-link-bg-color;
+  text-decoration: none;
+
+  transition: background-color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
